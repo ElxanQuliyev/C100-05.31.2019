@@ -1,0 +1,181 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url(https://fonts.gstatic.com/s/kaushanscript/v7/vm8vdRfvXFLG3OLnsO15WYS5DG72wNJHMw.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url(https://fonts.gstatic.com/s/kaushanscript/v7/vm8vdRfvXFLG3OLnsO15WYS5DG74wNI.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/*
+----------------------
+  Header start
+----------------------
+*/
+/* line 6, _header.scss */
+#header {
+  background: black;
+  padding: 10px 0; }
+  /* line 9, _header.scss */
+  #header .menu {
+    color: #fff;
+    display: flex;
+    justify-content: space-between; }
+    /* line 14, _header.scss */
+    #header .menu .logo h2 {
+      font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+      color: #fed136;
+      padding-top: .3125rem;
+      padding-bottom: .3125rem;
+      margin-right: 1rem;
+      font-size: 30px; }
+    /* line 23, _header.scss */
+    #header .menu ul {
+      display: flex; }
+      /* line 25, _header.scss */
+      #header .menu ul li {
+        padding: 15px; }
+
+/*
+ ----------------------
+   Header end
+ ----------------------
+ */
+/*
+  ----------------------
+  Welcome Start
+  ----------------------
+  */
+/* line 7, _welcome.scss */
+#welcome {
+  background: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+  text-align: center;
+  color: #fff; }
+  /* line 11, _welcome.scss */
+  #welcome .welcome-middle {
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 15rem 0; }
+    /* line 14, _welcome.scss */
+    #welcome .welcome-middle h1 {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px; }
+    /* line 20, _welcome.scss */
+    #welcome .welcome-middle h2 {
+      font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-size: 40px;
+      font-style: italic;
+      line-height: 40px;
+      margin-bottom: 25px; }
+
+/* line 30, _welcome.scss */
+.btnMain {
+  font-size: 18px;
+  padding: 20px 40px;
+  background: #fed136;
+  color: #fff;
+  cursor: pointer;
+  border-color: #fed136;
+  border-radius: 7px; }
+  /* line 38, _welcome.scss */
+  .btnMain:hover {
+    background: #ddb72c; }
+
+     /*
+----------------------
+Welcome End
+----------------------
+*/
+ /*
+----------------------
+Service
+----------------------
+*/
+/* line 10, _services.scss */
+#services .service-top {
+  text-align: center;
+  padding: 60px 0; }
+  /* line 13, _services.scss */
+  #services .service-top h1 {
+    font-size: 40px;
+    margin-top: 0;
+    font-weight: 700;
+    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 15px; }
+  /* line 20, _services.scss */
+  #services .service-top i {
+    font-style: italic; }
+/* line 25, _services.scss */
+#services .service-item .service-icon {
+  width: 30%;
+  margin: auto;
+  padding: 60px 24px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fed136;
+  color: #fff; }
+/* line 34, _services.scss */
+#services .service-item .service-text {
+  padding: 20px 40px; }
+  /* line 36, _services.scss */
+  #services .service-item .service-text h1 {
+    text-align: center;
+    margin-bottom: 10px; }
+  /* line 40, _services.scss */
+  #services .service-item .service-text p {
+    text-align: justify; }
+
+/* line 1, _portfolio.scss */
+#Portfolio {
+  background: #fafafa;
+  height: 780px;
+  margin-top: 100px;
+  padding: 100px; }
+  /* line 6, _portfolio.scss */
+  #Portfolio .port-item {
+    padding: 15px; }
+    /* line 9, _portfolio.scss */
+    #Portfolio .port-item .port-img {
+      position: relative; }
+    /* line 13, _portfolio.scss */
+    #Portfolio .port-item:hover .port-box {
+      opacity: 0.8;
+      transition: opacity .3s ease-in-out;
+      color: #fff; }
+    /* line 20, _portfolio.scss */
+    #Portfolio .port-item .port-box {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      background: #fed136;
+      text-align: center;
+      line-height: 310px; }
+    /* line 31, _portfolio.scss */
+    #Portfolio .port-item .portfolio-caption {
+      text-align: center;
+      background: #fff;
+      padding: 20px 0; }
+      /* line 35, _portfolio.scss */
+      #Portfolio .port-item .portfolio-caption h4 {
+        font-weight: 700;
+        font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1.5rem; }
+      /* line 40, _portfolio.scss */
+      #Portfolio .port-item .portfolio-caption p {
+        color: #ccc;
+        font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-style: italic;
+        font-size: 1.1rem; }
+
+/*# sourceMappingURL=main.css.map */
